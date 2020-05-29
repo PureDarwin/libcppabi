@@ -236,7 +236,10 @@
 				F9FF239A10D7180A00BD9FBD /* doc */,
 				F9FF233310D713BB00BD9FBD /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 8;
+			usesTabs = 0;
 		};
 		F9FF22FF10D7139300BD9FBD /* include */ = {
 			isa = PBXGroup;
