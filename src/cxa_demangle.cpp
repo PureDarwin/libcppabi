@@ -5248,7 +5248,7 @@ public:
     }
 };
 
-class __int128
+class __signed_int128
     : public __node
 {
     static const size_t n = sizeof("__int128") - 1;
@@ -5434,7 +5434,7 @@ public:
     }
 };
 
-class __float128
+class __float128_node
     : public __node
 {
     static const size_t n = sizeof("__float128") - 1;
@@ -6449,7 +6449,7 @@ __demangle_tree::__parse_builtin_type(const char* first, const char* last)
                 ++first;
             break;
         case 'n':
-            if (__make<__int128>())
+            if (__make<__signed_int128>())
                 ++first;
             break;
         case 'o':
@@ -6469,7 +6469,7 @@ __demangle_tree::__parse_builtin_type(const char* first, const char* last)
                 ++first;
             break;
         case 'g':
-            if (__make<__float128>())
+            if (__make<__float128_node>())
                 ++first;
             break;
         case 'z':
