@@ -633,7 +633,7 @@
 				INSTALL_PATH_PREFIX_iphonesimulator = "$(SDKROOT)";
 				LD_DYLIB_INSTALL_NAME = "/usr/lib/libc++abi.dylib";
 				LIB_iphoneos = "";
-				LIB_macosx = /usr/local/lib/libCrashReporterClient.a;
+				LIB_macosx = "$(DEPROOT)/usr/local/lib/libCrashReporterClient.a";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-nostdinc++",
 					"$(OTHER_CFLAGS)",
@@ -679,7 +679,7 @@
 				LD_DYLIB_INSTALL_NAME = "/usr/lib/libc++abi.dylib";
 				LD_GENERATE_MAP_FILE = YES;
 				LIB_iphoneos = "";
-				LIB_macosx = /usr/local/lib/libCrashReporterClient.a;
+				LIB_macosx = "$(DEPROOT)/usr/local/lib/libCrashReporterClient.a";
 				"OTHER_CFLAGS[arch=armv6]" = "-mno-thumb";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-nostdinc++",
