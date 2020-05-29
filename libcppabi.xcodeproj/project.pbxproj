@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -367,7 +367,7 @@
 			attributes = {
 			};
 			buildConfigurationList = F9FF22F310D7135200BD9FBD /* Build configuration list for PBXProject "libcppabi" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
