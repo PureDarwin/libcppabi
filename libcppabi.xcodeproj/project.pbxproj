@@ -67,6 +67,8 @@
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.gcc;
 			fileType = sourcecode.cpp;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -75,6 +77,8 @@
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.gcc;
 			fileType = sourcecode.c;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -360,6 +364,8 @@
 /* Begin PBXProject section */
 		F9FF22F010D7135200BD9FBD /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = F9FF22F310D7135200BD9FBD /* Build configuration list for PBXProject "libcppabi" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -469,12 +475,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					ppc,
-					i386,
-					x86_64,
-				);
 				COPY_PHASE_STRIP = NO;
 				GCC_CW_ASM_SYNTAX = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -493,10 +493,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-				);
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_CW_ASM_SYNTAX = NO;
@@ -552,10 +548,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-				);
 				BASE_ARCH_armv6 = iOS;
 				BASE_ARCH_armv7 = iOS;
 				BASE_ARCH_armv7f = iOS;
@@ -600,10 +592,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					x86_64,
-					i386,
-				);
 				BASE_ARCH_armv6 = iOS;
 				BASE_ARCH_armv7 = iOS;
 				BASE_ARCH_armv7f = iOS;
