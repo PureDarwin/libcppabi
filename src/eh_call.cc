@@ -41,8 +41,9 @@ using namespace __cxxabiv1;
 #pragma GCC visibility push(hidden)
 
 extern "C" void
-__cxa_call_terminate(_Unwind_Exception* ue_header)
+__cxa_call_terminate(void* ue_header_ptr)
 {
+  _Unwind_Exception* ue_header = (_Unwind_Exception*)ue_header_ptr;
 
   if (ue_header)
     {
